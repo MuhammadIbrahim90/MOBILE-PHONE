@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cartcheck</title>
+    <link rel="stylesheet" href="./sty.css" />
+  </head>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      /* background-color: skyblue; */
+    }
+    .heading {
+      height: 70px;
+      width: 100%;
+      background-color: skyblue;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    a {
+      text-decoration: none;
+      background-color: rgb(18, 174, 235);
+    }
+
+    .btn1 {
+      color: black;
+      background-color: rgb(18, 174, 235);
+      margin: 5px;
+      height: 40px;
+      border: solid 1px rgb(18, 174, 235);
+      width: 120px;
+      border-bottom-left-radius: 10px;
+      border-top-right-radius: 10px;
+      margin-left: 45%;
+    }
+    .btn1:focus {
+      outline: none;
+    }
+    h1 {
+      font-family: system-ui;
+      letter-spacing: 3px;
+      margin-top: 5px;
+      background-color: skyblue;
+    }
+
+    .card{
+      
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    margin: 20px;
+    padding: 10px;
+    background-color : skyblue;
+    border-radius: 5px;
+    
+
+}
+
+/* .cartContainer{
+  background-color: white;
+} */
+    
+  </style>
+  <body>
+    <div class="heading">
+      <h1>CHECK OUT</h1>
+    </div>
+    <div class="cartContainer">
+      <!-- <button class="plususButtons"> + </button>
+
+      <button class="minusButtons"> - </button> -->
+    </div>
+
+    <p class="cartTotal"></p>
+    <button class="btn1"><a href="./index.html"> SHOP MORE</a></button>
+    <script src="cart.js"></script>
+  </body>
+</html>
